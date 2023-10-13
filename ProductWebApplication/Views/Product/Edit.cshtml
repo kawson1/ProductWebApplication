@@ -1,0 +1,44 @@
+﻿@model ProductWebApplication.Models.Product
+
+@{
+    ViewData["Title"] = "Edit";
+    //var id = Context.Request.RouteValues["id"];
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+</head>
+<body>
+    <h1>Edit</h1>
+
+    <h4>Product</h4>
+    <hr />
+    @using (Html.BeginForm(FormMethod.Post))
+    {
+        // <input type="hidden" name="id" value="@id" />
+        <div class="col-md-4">
+            <div class="form-group">
+                <label asp-for="@Model.Name">Name</label>
+                <input asp-for="@Model.Name" name="Name"/>
+                <span asp-validation-for="Name"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Description">Description</label>
+                <input asp-for="@Model.Description" name="Description" />
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Value" class="control-label">Value</label>
+                <input asp-for="@Model.Value" class="form-control" name="Value" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </div>
+    }
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</body>
+</html>
+
