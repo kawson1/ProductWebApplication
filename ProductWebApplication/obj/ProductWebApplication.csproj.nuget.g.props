@@ -13,7 +13,12 @@
     <SourceRoot Include="C:\Users\lkawa\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)appdynamics.agent.distrib.micro.windows\23.9.0\build\AppDynamics.Agent.Distrib.Micro.Windows.props" Condition="Exists('$(NuGetPackageRoot)appdynamics.agent.distrib.micro.windows\23.9.0\build\AppDynamics.Agent.Distrib.Micro.Windows.props')" />
+    <Import Project="$(NuGetPackageRoot)appdynamics.agent.windows\23.9.0\build\netcoreapp2.0\AppDynamics.Agent.Windows.props" Condition="Exists('$(NuGetPackageRoot)appdynamics.agent.windows\23.9.0\build\netcoreapp2.0\AppDynamics.Agent.Windows.props')" />
+  </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\lkawa\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgAppDynamics_Agent_Distrib_Micro_Windows Condition=" '$(PkgAppDynamics_Agent_Distrib_Micro_Windows)' == '' ">C:\Users\lkawa\.nuget\packages\appdynamics.agent.distrib.micro.windows\23.9.0</PkgAppDynamics_Agent_Distrib_Micro_Windows>
   </PropertyGroup>
 </Project>

@@ -14,7 +14,12 @@
       "launchBrowser": true,
       "applicationUrl": "https://localhost:7130;http://localhost:5256",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CORECLR_ENABLE_PROFILING": "1",
+        "CORECLR_PROFILER": "{39AEABC1-56A5-405F-B8E7-C3668490DB4A}",
+        "CORECLR_PROFILER_PATH_32": "C:\\Users\\lkawa\\.nuget\\packages\\appdynamics.agent.distrib.micro.windows\\23.9.0\\tools\\AppDynamics.Profiler_x86.dll",
+        "CORECLR_PROFILER_PATH_64": "C:\\Users\\lkawa\\.nuget\\packages\\appdynamics.agent.distrib.micro.windows\\23.9.0\\tools\\AppDynamics.Profiler_x64.dll"
+
       }
     },
     "IIS Express": {

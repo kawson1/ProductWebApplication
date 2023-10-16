@@ -1,2 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)appdynamics.agent.distrib.micro.windows\23.9.0\build\AppDynamics.Agent.Distrib.Micro.Windows.targets" Condition="Exists('$(NuGetPackageRoot)appdynamics.agent.distrib.micro.windows\23.9.0\build\AppDynamics.Agent.Distrib.Micro.Windows.targets')" />
+    <Import Project="$(NuGetPackageRoot)appdynamics.agent.windows\23.9.0\build\netcoreapp2.0\AppDynamics.Agent.Windows.targets" Condition="Exists('$(NuGetPackageRoot)appdynamics.agent.windows\23.9.0\build\netcoreapp2.0\AppDynamics.Agent.Windows.targets')" />
+  </ImportGroup>
+</Project>

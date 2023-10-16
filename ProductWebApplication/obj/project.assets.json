@@ -2,6 +2,29 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "AppDynamics.Agent.Distrib.Micro.Windows/23.9.0": {
+        "type": "package",
+        "build": {
+          "build/AppDynamics.Agent.Distrib.Micro.Windows.props": {},
+          "build/AppDynamics.Agent.Distrib.Micro.Windows.targets": {}
+        }
+      },
+      "AppDynamics.Agent.Windows/23.9.0": {
+        "type": "package",
+        "dependencies": {
+          "AppDynamics.Agent.Distrib.Micro.Windows": "[23.9.0]"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        },
+        "build": {
+          "build/netcoreapp2.0/AppDynamics.Agent.Windows.props": {},
+          "build/netcoreapp2.0/AppDynamics.Agent.Windows.targets": {}
+        }
+      },
       "Humanizer.Core/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2002,6 +2025,44 @@
     }
   },
   "libraries": {
+    "AppDynamics.Agent.Distrib.Micro.Windows/23.9.0": {
+      "sha512": "HpQISRfOGfI8gQhXBiz4YXlR7n6nlljGn5YcKmZtxKepUJqMF83+Q/cXxcF9x7r8wDfImlcrZvaN5jm2ddmRkg==",
+      "type": "package",
+      "path": "appdynamics.agent.distrib.micro.windows/23.9.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "appdynamics.agent.distrib.micro.windows.23.9.0.nupkg.sha512",
+        "appdynamics.agent.distrib.micro.windows.nuspec",
+        "build/AppDynamics.Agent.Distrib.Micro.Windows.props",
+        "build/AppDynamics.Agent.Distrib.Micro.Windows.targets",
+        "tools/AppDynamics.Agent.OtelSDK.dll",
+        "tools/AppDynamics.Agent.dll",
+        "tools/AppDynamics.Agent.netstandard.dll",
+        "tools/AppDynamics.HeapDump_x64.exe",
+        "tools/AppDynamics.HeapDump_x86.exe",
+        "tools/AppDynamics.Profiler_x64.dll",
+        "tools/AppDynamics.Profiler_x86.dll",
+        "tools/AppDynamicsAgentLog.config",
+        "tools/AppDynamicsConfig.json"
+      ]
+    },
+    "AppDynamics.Agent.Windows/23.9.0": {
+      "sha512": "3i5qLt+sx0lklsYHGzLMa0KlIgoOSUqZQ1SYNPH1XRlUlk0jtovqQQJqQ+9wCjCFUe1+X6NptvRFKCnJSRzTnA==",
+      "type": "package",
+      "path": "appdynamics.agent.windows/23.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "appdynamics.agent.windows.23.9.0.nupkg.sha512",
+        "appdynamics.agent.windows.nuspec",
+        "build/netcoreapp2.0/AppDynamics.Agent.Windows.props",
+        "build/netcoreapp2.0/AppDynamics.Agent.Windows.targets",
+        "lib/netcoreapp2.0/_._",
+        "readme.txt"
+      ]
+    },
     "Humanizer.Core/2.2.0": {
       "sha512": "rsYXB7+iUPP8AHgQ8JP2UZI2xK2KhjcdGr9E6zX3CsZaTLCaw8M35vaAJRo1rfxeaZEVMuXeaquLVCkZ7JcZ5Q==",
       "type": "package",
@@ -6408,6 +6469,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "AppDynamics.Agent.Windows >= 23.9.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2"
     ]
   },
@@ -6454,6 +6516,12 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "AppDynamics.Agent.Windows": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[23.9.0, )"
+          },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[5.0.2, )"
