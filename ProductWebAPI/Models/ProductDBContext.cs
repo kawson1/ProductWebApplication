@@ -21,28 +21,28 @@ namespace ProductWebAPI.Models
             {
                 new Product
                 {
-                    Id = 1,
+                    //Id = 1,
                     Name = "product1",
                     Description = "p1 description",
                     Value = 9.99f
                 },
                 new Product
                 {
-                    Id = 2,
+                   //Id = 2,
                     Name = "product2",
                     Description = "dgfhdfgh dfghdfg hdfgh",
                     Value = 1.23f
                 },
                 new Product
                 {
-                    Id = 3,
+                    //Id = 3,
                     Name = "product3",
                     Description = "d fghdfgh dfghdfghdfgh",
                     Value = 12.50f
                 },
                 new Product
                 {
-                    Id = 4,
+                    //Id = 4,
                     Name = "product4",
                     Description = " dfgh dfgh fdgh fdg hdfghd fdf ghfdghdfgh dfgh dfg hdfg hdfgh",
                     Value = 1.00f

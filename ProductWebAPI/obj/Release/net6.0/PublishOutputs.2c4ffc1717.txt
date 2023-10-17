@@ -4,6 +4,8 @@ D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\appse
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\ProductWebAPI.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\ProductWebAPI.runtimeconfig.json
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\ProductWebAPI.pdb
+D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Azure.Core.dll
+D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Azure.Identity.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Humanizer.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\MessagePack.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\MessagePack.Annotations.dll
@@ -32,6 +34,7 @@ D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Micro
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Caching.Abstractions.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Caching.Memory.dll
+D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
@@ -40,12 +43,15 @@ D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Micro
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Options.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Primitives.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Identity.Client.dll
+D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Abstractions.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.NET.StringTools.dll
+D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.SqlServer.Server.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.VisualStudio.Debugger.Contracts.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -76,10 +82,13 @@ D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\Syste
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\System.Drawing.Common.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
+D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\System.Memory.Data.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\System.Reflection.MetadataLoadContext.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\System.Runtime.Caching.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\System.Security.Permissions.dll
+D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\System.Text.Encodings.Web.dll
+D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\System.Text.Json.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\System.Windows.Extensions.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\af\Humanizer.resources.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\ar\Humanizer.resources.dll
@@ -220,8 +229,8 @@ D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\ru\Mi
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
@@ -251,7 +260,8 @@ D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runti
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runtimes\win-x86\native\e_sqlite3.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\PROJECTS\ProductApplication\ProductWebAPI\obj\Release\net6.0\PubTmp\Out\ProductWebAPI.deps.json

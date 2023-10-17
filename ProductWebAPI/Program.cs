@@ -10,7 +10,14 @@ namespace ProductWebAPI
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.AddDbContext<ProductDBContext>(options => options.UseInMemoryDatabase("Products"));
+            builder.Services.AddDbContext<ProductDBContext>(options =>
+            {
+                var configuration = new ConfigurationBuilder()
+                    .AddJsonFile("appsettings.json")
+                    .Build();
+
+                options.UseSqlServer(configuration.GetConnectionString("ProductsDBConnection"));
+            });
             builder.Services.AddScoped<IProductRepository, ProductRepository>();
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
