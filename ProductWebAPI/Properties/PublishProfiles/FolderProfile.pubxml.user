@@ -5,7 +5,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>D:\PROJECTS\ProductApplication\IIS_files\WebAPI</_PublishTargetUrl>
-    <History>True|2023-10-17T09:26:12.3159752Z;True|2023-10-07T16:52:37.2578581+02:00;</History>
+    <History>True|2023-10-17T13:49:05.0402987Z;True|2023-10-17T13:32:28.1022464+02:00;True|2023-10-17T13:29:54.3672695+02:00;True|2023-10-17T11:26:12.3159752+02:00;True|2023-10-07T16:52:37.2578581+02:00;</History>
     <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
   </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ProductsDBConnection">
+      <Value>Server=.\SQLEXPRESS%3b Database=Products%3b TrustServerCertificate=True%3b Trusted_Connection=True%3b MultipleActiveResultSets=true%3b </Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
 </Project>

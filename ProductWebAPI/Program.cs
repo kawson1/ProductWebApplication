@@ -27,26 +27,18 @@ namespace ProductWebAPI
 
             var app = builder.Build();
 
-            /*            app.UseRouting();
-            */
-
             using (var scope = app.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
 
                 var context = services.GetRequiredService<ProductDBContext>();
-                context.Database.EnsureCreated();
+                // context.Database.EnsureCreated();
                 ProductDBContext.Initialize(context);
             }
 
             app.UseRouting();
             app.UseAuthorization();
             app.MapControllers();
-
-            /*            app.UseEndpoints(endpoints =>
-                        {
-                            endpoints.MapControllers();
-                        });*/
 
             app.Run();
         }
