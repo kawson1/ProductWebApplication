@@ -3,9 +3,9 @@
     "host": "dotnetces.saas.appdynamics.com",
     "port": 443,
     "account": "dotnetces",
-    "password": "AppD123!",
-    "ssl": false,
-    "enable_tls12": false
+    "password": "90qkwvk6dwz1",
+    "ssl": true,
+    "enable_tls12": true
   },
   "application": {
     "name": "lkawa_WebAppIIS",
