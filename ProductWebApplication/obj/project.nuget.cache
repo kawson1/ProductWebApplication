@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "omxQA+eR4AMQqFNLII+xFi/A6ShpfIvINcqQGCYSRkQtjuyAF15gchfJrpB+PY0ScVHbnIqQ6fhzSJ6t6av7zA==",
+  "dgSpecHash": "SdEjfBxuavfMANAon+RrqT+Nbm/+pA1qbJAYfMw5zOuuCunOXeIm5kHYiJNy83wbgwf/H95hkD2VOVz9wdNKyA==",
   "success": true,
-  "projectFilePath": "D:\\PROJECTS\\ProductApplication\\ProductWebApplication\\ProductWebApplication.csproj",
+  "projectFilePath": "D:\\PROJECTS\\ProductWebApplication\\ProductWebApplication\\ProductWebApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lkawa\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\lkawa\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

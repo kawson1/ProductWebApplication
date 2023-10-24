@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tSJgvHPpq9RcNmnOC17418BsfqHzi35T8j/xMRlSi6otpaM9YsgzAdqTqPftqR2X3U+GjCu+7p6xHYI7ATjerg==",
+  "dgSpecHash": "scB8rlVCGoVsIZom/nzNSiPqklBB0uLPgpBUcThQeM128gv1XcenFXe+4qVtORCrmYPnNcYalJL03Yjf8zUXdw==",
   "success": true,
-  "projectFilePath": "D:\\PROJECTS\\ProductApplication\\ProductWebAPI\\ProductWebAPI.csproj",
+  "projectFilePath": "D:\\PROJECTS\\ProductWebApplication\\ProductWebAPI\\ProductWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lkawa\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\lkawa\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -11153,11 +11153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROJECTS\\ProductApplication\\ProductWebAPI\\ProductWebAPI.csproj",
+      "projectUniqueName": "D:\\PROJECTS\\ProductWebApplication\\ProductWebAPI\\ProductWebAPI.csproj",
       "projectName": "ProductWebAPI",
-      "projectPath": "D:\\PROJECTS\\ProductApplication\\ProductWebAPI\\ProductWebAPI.csproj",
+      "projectPath": "D:\\PROJECTS\\ProductWebApplication\\ProductWebAPI\\ProductWebAPI.csproj",
       "packagesPath": "C:\\Users\\lkawa\\.nuget\\packages\\",
-      "outputPath": "D:\\PROJECTS\\ProductApplication\\ProductWebAPI\\obj\\",
+      "outputPath": "D:\\PROJECTS\\ProductWebApplication\\ProductWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11235,7 +11235,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
