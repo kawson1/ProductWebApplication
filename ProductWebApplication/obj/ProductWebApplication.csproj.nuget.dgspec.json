@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROJECTS\\ProductApplication\\ProductWebApplication\\ProductWebApplication.csproj": {}
+    "D:\\PROJECTS\\ProductWebApplication\\ProductWebApplication\\ProductWebApplication.csproj": {}
   },
   "projects": {
-    "D:\\PROJECTS\\ProductApplication\\ProductWebApplication\\ProductWebApplication.csproj": {
+    "D:\\PROJECTS\\ProductWebApplication\\ProductWebApplication\\ProductWebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJECTS\\ProductApplication\\ProductWebApplication\\ProductWebApplication.csproj",
+        "projectUniqueName": "D:\\PROJECTS\\ProductWebApplication\\ProductWebApplication\\ProductWebApplication.csproj",
         "projectName": "ProductWebApplication",
-        "projectPath": "D:\\PROJECTS\\ProductApplication\\ProductWebApplication\\ProductWebApplication.csproj",
+        "projectPath": "D:\\PROJECTS\\ProductWebApplication\\ProductWebApplication\\ProductWebApplication.csproj",
         "packagesPath": "C:\\Users\\lkawa\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJECTS\\ProductApplication\\ProductWebApplication\\obj\\",
+        "outputPath": "D:\\PROJECTS\\ProductWebApplication\\ProductWebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -91,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

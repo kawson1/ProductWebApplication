@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NJXtyJJDB/u+CZwqW0N1q+NRRfxL1PH3CErRxBt1dY2/cIZbXAvQ5RDRw5f0BYpL1gwE2AUsXJh7aboIOaJvVw==",
+  "dgSpecHash": "ri9/d0jud/iTOpsyUOoUiPHm3SMvmvdg612JQVqrGfCPxueEb2ZOw1pJ1OjQ+a8gnb3sxUeS8Xm5pWZqt4Tw+g==",
   "success": true,
-  "projectFilePath": "D:\\PROJECTS\\ProductApplication\\ProductWebAPI\\ProductWebAPI.csproj",
+  "projectFilePath": "D:\\PROJECTS\\ProductWebApplication\\ProductWebAPI\\ProductWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lkawa\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\lkawa\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
