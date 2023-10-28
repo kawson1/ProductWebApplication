@@ -22,7 +22,8 @@ namespace ProductWebApplication.Controllers
         public ProductController(IHttpClientFactory httpClientFactory, IConfiguration configuration) 
         { 
             _httpClient  = httpClientFactory.CreateClient();
-            _productApiServiceUrl = configuration.GetValue<string>("ExternalServices:ProductApiServiceUrl");
+            // _productApiServiceUrl = configuration.GetValue<string>("ExternalServices:ProductApiServiceUrl");
+            _productApiServiceUrl = System.Environment.GetEnvironmentVariable("ProductApiServiceUrl");
             errorHandler = new ErrorHandler();
         }
 
