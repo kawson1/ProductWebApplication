@@ -1,0 +1,15 @@
+services:
+  api:
+    build: ./ProductWebApi
+    networks:
+      - product-network
+  web:
+    build: ./ProductWebApplication
+    environment:
+      - SERVICE_URL=http://api:5189
+    ports:
+      - "9000:5000"
+    networks:
+      - product-network
+networks:
+ product-network: {}

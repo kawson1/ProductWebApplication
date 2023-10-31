@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using ProductWebApplication.Components;
 using ProductWebApplication.Models;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
@@ -22,7 +23,11 @@ namespace ProductWebApplication.Controllers
         public ProductController(IHttpClientFactory httpClientFactory, IConfiguration configuration) 
         { 
             _httpClient  = httpClientFactory.CreateClient();
-            _productApiServiceUrl = configuration.GetValue<string>("ExternalServices:ProductApiServiceUrl");
+
+            _productApiServiceUrl = Environment.GetEnvironmentVariable("SERVICE_URL");
+            if (string.IsNullOrEmpty(_productApiServiceUrl))
+                _productApiServiceUrl = configuration.GetValue<string>("ExternalServices:ProductApiServiceUrl");
+
             errorHandler = new ErrorHandler();
         }
 
